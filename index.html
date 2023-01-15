@@ -5,10 +5,31 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="container">
-        <div
+    <h1 id="points">Points: 0</h1>
+    <h2 id="persecond">Points/second: 1</h2>
+    <button onclick="popup()"class="button button-1">Prestige</button>
+    <div class="prestige" id="prestige">
+        <div class="upgrades" id="upgrades">Upgrades</div>
+            <div class="upgrade" id="upgrade-1" onclick="upgrade1()">
+                <h3>Upgrade 1</h3>
+                <p>Multiplies point gain by 2</p>
+                <p>Cost: 10 points</p>
+            </div>
+            <div class="upgrade" id="upgrade-2" onclick="upgrade1()">
+                <h3>Upgrade 2</h3>
+                <p>Unlocks Buyables</p>
+                <p>Cost: 50 points</p>
+            </div>
+            <div class="upgrade" id="upgrade-3" onclick="upgrade1()">
+                <h3>Upgrade 3</h3>
+                <p>Multiplies point gain by 3</p>
+                <p>Cost: 10 points</p>
+            </div>
     </div>
+    <script src="Windows.js"></script>
+    <script src="Points&Upgrades.js"></script>
 </body>
 </html>
